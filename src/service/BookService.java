@@ -23,7 +23,7 @@ public class BookService {
                 new Book(4, "月色撩人", "月色撩人.jpg", "王安忆"),
                 new Book(5, "逃之夭夭", "逃之夭夭.jpg", "伍纯刚"),
                 new Book(6, "戏年", "戏年.jpg", "葛亮"),
-                new Book(7, "昨日重现", "昨日重现.jpg", "张寒寺"),
+                new Book(7, "昨日重现", "1111.jpg", "张寒寺"),
                 new Book(8, "墙上的父亲", "墙上的父亲.jpg", "鲁敏"),
                 new Book(9, "血疑", "血凝.jpg", "尹恩 兰金"),
                 new Book(10, "短歌行", "短歌行.jpg", "钟文音"),
@@ -41,6 +41,9 @@ public class BookService {
     }
 
     public static List<Book> getBooklist() {
+        return booklist;
+    }
+    public static List<Book> init(){
         return booklist;
     }
 
