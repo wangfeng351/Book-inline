@@ -80,12 +80,10 @@
         }
         .left{
             flex:0 0 60%;
-            border: 1px solid #9b9b9b;
             margin-right: 10px;
         }
         .right{
             flex: 0 0 36%;
-            border: 1px solid #aaaaaa;
         }
         .row{
             display: flex;
@@ -179,7 +177,9 @@
         </div>
         <div class="column-2">
             <p style="direction: rtl">
-                <button class="care-btn">关注<i class="iconfont" style="color: #20a162;font-size: 12px">&#xe61c;</i></button>
+<%--                change(this),this是获取当前的值--%>
+                <input type="button"class="care-btn" name="care" onclick="change(this)"value="关注" id="myButton">
+<%--                <i class="iconfont" style="color: #20a162;margin-right:60px;margin-top:-30px;font-size: 12px">&#xe61c;</i>--%>
             </p>
         </div>
         <%
@@ -194,6 +194,11 @@
         var bookName = document.getElementById("search");
         var value = bookName.value;
         location.href = "home?bookName="+value;
+    }
+    function change(elem) {
+        if(elem.value=="关注") elem.value = "已关注";
+        else elem.value = "关注";
+
     }
 </script>
 </html>

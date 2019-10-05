@@ -6,16 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="522943d4-5a0e-4c08-a6cd-2eb61bda6f56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="522943d4-5a0e-4c08-a6cd-2eb61bda6f56" name="Default Changelist" comment="美化基本完成，要求的功能都已实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/bookdetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bookdetail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/昨日重现.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/1111.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/person.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/person.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sign_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/sign_in.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -296,8 +290,16 @@
       <workItem from="1570010702968" duration="12629000" />
       <workItem from="1570068792364" duration="17948000" />
       <workItem from="1570155329095" duration="39673000" />
-      <workItem from="1570238903029" duration="6082000" />
+      <workItem from="1570238903029" duration="16414000" />
     </task>
+    <task id="LOCAL-00001" summary="美化基本完成，要求的功能都已实现">
+      <created>1570245780032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570245780032</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +315,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="美化基本完成，要求的功能都已实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="美化基本完成，要求的功能都已实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
