@@ -4,6 +4,7 @@ import entity.User;
 import service.UserService;
 import util.Md5Util;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -12,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 
 /**
  * @author wfzs
@@ -30,6 +32,9 @@ public class SignInServlet extends HttpServlet {
         String account = req.getParameter("account");
         String password = req.getParameter("password");
         UserService userService = new UserService();
+        ServletContext sc = this.getServletContext();
+        List<User> userList = (List<User>) sc.getAttribute("userList");
+        userService.setUserList(userList);
         User user = userService.signIn(account, Md5Util.crypt(password));
         if(user !=null){
             HttpSession session = req.getSession();

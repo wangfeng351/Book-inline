@@ -5,6 +5,7 @@ import entity.Book;
 import service.AuthorService;
 import service.BookService;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -22,9 +23,15 @@ public class HomeServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String bookName = req.getParameter("bookName");
+        ServletContext sc = this.getServletContext();
+
+        BookService bookService = new BookService();
+        List<Book> list = (List<Book>) sc.getAttribute("bookList");
+        bookService.setBooklist(list);
+
         List<Book> bookList;
         if (bookName == null || bookName.trim().equals("")){
-            bookList = BookService.getBooklist();
+            bookList = (List<Book>) sc.getAttribute("bookList");
         }else {
             bookList = BookService.getListByName(bookName);
         }

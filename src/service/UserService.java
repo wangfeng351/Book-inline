@@ -10,18 +10,8 @@ import java.util.List;
 public class UserService {
     private List<User> userList;
 
-    public UserService(){
-        init();
-    }
-
-    public List<User> init(){
-         userList = new ArrayList<>();
-        User [] users = {
-                new User("3.jpg","大爱谭松韵","14752191369","698d51a19d8a121ce581499d7b701668","南京"),
-                new User("最美的风景.jpg","最美的风景","1244353765","bcbe3365e6ac95ea2c0343a2395834dd","上海")
-        };
-        userList = Arrays.asList(users);
-        return userList;
+    public void setUserList(List<User> userList) {
+        this.userList = userList;
     }
 
     /**

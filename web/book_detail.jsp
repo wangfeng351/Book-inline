@@ -197,7 +197,7 @@
         <hr>
         <div class="row">
         <%
-            List<Book> bookList = BookService.init();
+            List<Book> bookList = (List<Book>) request.getAttribute("booklist");
             for (Book book1 : bookList) {
                 if(book1.getId().equals(book.getId())){
                     continue;
