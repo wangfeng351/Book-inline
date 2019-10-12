@@ -134,9 +134,6 @@
     </style>
 </head>
 <body>
-
-
-<%--11111111--%>
 <div class="top">
    <jsp:include page="header.jsp"/>
 </div>

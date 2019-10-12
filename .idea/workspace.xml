@@ -6,29 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="522943d4-5a0e-4c08-a6cd-2eb61bda6f56" name="Default Changelist" comment="美化基本完成，要求的功能都已实现">
-      <change afterPath="$PROJECT_DIR$/src/listener/ContextLoaderListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/servlet/BookDetailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/servlet/BookDetailServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/servlet/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/servlet/HomeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/servlet/SignInServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/servlet/SignInServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/bookdetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book-online/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book-online/service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book-online/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book-online/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book-online/servlet/BookDetailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book-online/servlet/BookDetailServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book-online/servlet/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book-online/servlet/HomeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book-online/servlet/SignInServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book-online/servlet/SignInServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/BookDetailServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/BookDetailServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/SignInServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/SignInServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/bookdetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/book_detail.jsp" afterDir="false" />
+    <list default="true" id="522943d4-5a0e-4c08-a6cd-2eb61bda6f56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +184,7 @@
       <workItem from="1570770961636" duration="1256000" />
       <workItem from="1570868788224" duration="49000" />
       <workItem from="1570878519831" duration="28000" />
-      <workItem from="1570878633988" duration="621000" />
+      <workItem from="1570878633988" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="美化基本完成，要求的功能都已实现">
       <created>1570245780032</created>
@@ -214,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570245780032</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1570879374486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570879374486</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +221,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="美化基本完成，要求的功能都已实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="美化基本完成，要求的功能都已实现" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
